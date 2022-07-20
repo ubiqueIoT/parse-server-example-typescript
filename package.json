@@ -1,5 +1,5 @@
 {
-  "name": "parse-server-relief-project",
+  "name": "parse-server-example-typescript",
   "version": "2.0.1",
   "description": "Relief service parse server",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "start": "node ./dist/index.js",
     "serve": "ts-node -r tsconfig-paths/register src/index.ts",
     "debug": "export CLOUD_CODE_MAIN=\"./src/cloud/main.ts\" && nodemon --watch \"src/**\" --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"npm run serve\"",
-    "deploy": "npm run build && npm run dist && eb deploy"
+    "deploy": "npm run build && npm run dist"
   },
   "engines": {
     "node": ">=14.0",
