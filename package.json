@@ -1,7 +1,7 @@
 {
   "name": "parse-server-example-typescript",
   "version": "2.0.1",
-  "description": "Relief service parse server",
+  "description": "Parse Server Example Project with Typescript",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
