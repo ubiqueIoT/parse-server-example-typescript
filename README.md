@@ -1,5 +1,5 @@
 # Parse Server Example Typescript
-A sample Parse Server running with Typescript
+A sample [Parse Server](https://github.com/parse-community/parse-server) running with Typescript
 
 ## How to use:
 
