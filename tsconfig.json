@@ -1,0 +1,36 @@
+{
+    "ts-node": {
+        "transpileOnly": false,
+        "files": true,
+        "compilerOptions": {
+          "resolveJsonModule": true
+        }
+    },
+    "compilerOptions": {
+        "allowSyntheticDefaultImports" : true,
+        "module": "commonjs",
+        "strictNullChecks" : true,
+        "esModuleInterop": true,
+        "target": "es2016",
+        "noImplicitAny": true,
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "rootDir": "src",
+        "baseUrl": ".",
+        "allowJs": true,
+        "paths": {
+            "@/*": [
+                "src/*"
+            ],
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "./node_modules/@types/"
+    ],
+    "exclude": [
+        "coverage/*",
+        "logs/*"
+    ]
+}
